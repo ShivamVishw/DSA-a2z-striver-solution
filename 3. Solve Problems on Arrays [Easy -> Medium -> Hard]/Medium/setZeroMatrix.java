@@ -1,12 +1,9 @@
 import java.util.Scanner;
 class setZeroMatrix {
-
-//Set Matrix Zero
-//Problem Statement: Given a matrix if an element in the matrix is 0 then you will have to set its entire column and row to 0 and then return the matrix.
-    
-
-    static void matrixZero(int matrix[][], int n){
-            
+    //Set Matrix Zero   
+    //Problem Statement: Given a matrix if an element in the matrix is 0 then you will have to set its entire column,
+    // and row to 0 and then return the matrix.   
+    static void matrixZero(int matrix[][], int n){    
         if(matrix[1][1]==0){
             for(int i=0; i<n; i++){
                 for(int j=0; j<n; j++){
