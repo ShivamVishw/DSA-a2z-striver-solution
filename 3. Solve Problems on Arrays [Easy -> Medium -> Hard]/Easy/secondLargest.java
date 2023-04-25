@@ -1,4 +1,6 @@
 class secondLargest {
+    // Find the second largest element in the given sorted array.
+    
     // first do sorting and then get second largest by writing some conditions
     static void secLargest(int arr[], int n){
         for(int i=n-1; i>=0; i--){
