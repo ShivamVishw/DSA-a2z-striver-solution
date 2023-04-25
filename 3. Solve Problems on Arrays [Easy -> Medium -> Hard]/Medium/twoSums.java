@@ -1,4 +1,5 @@
 public class twoSums {
+    // Two sum problem
     static void twoSum(int arr[], int n, int target){
         int count =0;
         for (int i = 0; i < arr.length; i++) {
