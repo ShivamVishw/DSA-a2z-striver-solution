@@ -1,4 +1,5 @@
 public class checkSorted {
+    // Check if the array is sorted
     static void sorted(int arr[], int n){
         int temp =0;
         for(int i=0; i<n-1; i++){    
