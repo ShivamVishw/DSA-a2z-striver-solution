@@ -9,7 +9,8 @@ class longestConsecutiveSequence{
 
             if(arr[i]== prevElement+1){
                 current++;
-            }else if(arr[i]!=prevElement){
+            }
+            else{
                 current=1;
             }
 
@@ -19,7 +20,7 @@ class longestConsecutiveSequence{
     }
 
     public static void main(String[] args) {
-        int arr[] = {3,8,9,0,1,5,6,7};
+        int arr[] = {3,8,5,10,51,53,9,10};
         int n= arr.length;
         System.out.println(consective(arr, n));
     }
