@@ -1,6 +1,6 @@
 public class KadaneAlgo {
     static void buySell(int arr[], int buyDate, int sellDate){
-        
+        //Kadanes's algorithm implementation
         if(arr[sellDate]>arr[buyDate]){
             System.out.println("Yes profitable and values : "+(arr[sellDate] - arr[buyDate]));
         }else if((arr[sellDate] - arr[buyDate])<0){
