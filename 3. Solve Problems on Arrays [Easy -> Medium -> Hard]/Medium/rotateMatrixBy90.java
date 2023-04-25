@@ -1,5 +1,6 @@
 import java.util.Scanner;
 public class rotateMatrixBy90 {
+    //Rotate the given matrix by 90 degree
     static void rotateMatrix(int matrix[][],int n){
         int matrix1[][] = new int[n][n];
         for(int row=0; row<n; row++){
