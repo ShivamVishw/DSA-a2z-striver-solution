@@ -1,4 +1,5 @@
 public class moveZero {
+    // Move Zeros to end
     static void zeroEnd(int arr[],int n){
         int temp[] =new int[n];
         int m=0;
