@@ -1,4 +1,5 @@
 public class sort012 {
+    // Sort an array of 0’s 1’s and 2’s
     static void sort012s(int arr[], int n){
         //make an hash array as temp
         int []hash = new int[n];
