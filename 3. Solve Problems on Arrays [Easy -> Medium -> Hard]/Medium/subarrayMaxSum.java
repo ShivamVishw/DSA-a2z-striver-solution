@@ -4,6 +4,6 @@ public class subarrayMaxSum {
     
     
     
-    // For solution:
+    // For solution :
     // So it is almost similar to kadane's algorithms so just see the kadane's algorithm first then solve this , it is very simple
 }
