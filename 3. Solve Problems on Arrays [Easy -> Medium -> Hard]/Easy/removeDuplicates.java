@@ -1,4 +1,5 @@
 public class removeDuplicates {
+    // Remove duplicates from Sorted array
     static int removeDuplicate(int arr[],int n){
         int i=0;
         for(int j=0; j<n; j++){
