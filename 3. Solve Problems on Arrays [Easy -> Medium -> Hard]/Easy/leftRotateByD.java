@@ -1,4 +1,5 @@
 public class leftRotateByD {
+    // 	Left rotate an array by D places
     public static void leftRotate(int arr[],int n, int d){
         //base case
         if(n==0 || d%n==0){
