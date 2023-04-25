@@ -1,4 +1,5 @@
 public class consecutiveOne {
+    // Maximum Consecutive Ones
     static int maximumConsec(int arr[], int n) {
         int count=0;
         int max=0;
