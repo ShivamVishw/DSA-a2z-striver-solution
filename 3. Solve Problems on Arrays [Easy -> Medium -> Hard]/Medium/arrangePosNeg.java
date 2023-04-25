@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 public class arrangePosNeg {
+    //	Rearrange the array in alternating positive and negative items
     static int[] rearrangeArray(int []arr,int n){
         ArrayList<Integer> positive = new ArrayList<>();
         ArrayList<Integer> negetive = new ArrayList<>();       
