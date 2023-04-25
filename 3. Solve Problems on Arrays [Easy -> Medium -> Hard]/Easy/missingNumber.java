@@ -1,5 +1,5 @@
 public class missingNumber {
-    //Linear Search
+    // 	Find missing number in an array
     public static int misingNumber(int []arr, int N) {
 
         //outer loop to run fnumber from 1 to N
