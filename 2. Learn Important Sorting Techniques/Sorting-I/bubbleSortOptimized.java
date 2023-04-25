@@ -1,4 +1,6 @@
 public class bubbleSortOptimized {
+    
+    // Optimized solution for bubble sort
     static void bubble_sort(int arr[], int n){
         for(int i=n-1; i>=0;i--){
             int didSwap=0;
