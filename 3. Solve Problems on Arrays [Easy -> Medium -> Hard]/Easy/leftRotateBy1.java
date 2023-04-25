@@ -1,4 +1,5 @@
 public class leftRotateBy1 {
+    // 	Left Rotate an array by one place
     static void leftRotate(int arr[], int n){
         int temp[] = new int[n];
         for(int i=1; i<n; i++){
