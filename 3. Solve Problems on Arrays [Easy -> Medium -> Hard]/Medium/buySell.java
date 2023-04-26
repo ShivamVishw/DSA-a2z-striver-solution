@@ -10,7 +10,7 @@ public class buySell {
         int maxProfit=0;
         if(arr[sellDate]>arr[buyDate]){
             maxProfit = arr[sellDate] - arr[buyDate];
-            System.out.print("Maximum profit is : ");           
+            System.out.print("Maximum profit is: ");           
             return maxProfit;
         }else{
             System.out.print("Not profitable i.e profit : ");
