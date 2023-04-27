@@ -6,7 +6,8 @@ public class upperBoundImpl {
         int end= arr.length-1;
         while(start<=end){
             //find the middle element
-            // here we have taken start +(end-start)/2 instead of (start +end)/2 is because range of integer can exceed so for prevent that we have written in different form.
+            // int mid = (start + end) / 2; // might be possible that,
+            // (start + end) exceeds the range of int in java
         
             int mid = start +(end-start)/2;
             
