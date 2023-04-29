@@ -1,5 +1,5 @@
 public class countOccurencesDuplicate {
-    // Find First and Last Position of Element in Sorted Array
+    // Count occurrences of a number in a sorted array with duplicates
     static int search(int arr[], int target, boolean findStartIndex){        
         int start = 0;
         int end = arr.length-1;
