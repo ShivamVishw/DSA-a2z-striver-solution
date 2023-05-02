@@ -17,9 +17,9 @@ public class twoSums {
         }
     }
     public static void main(String[] args) {
-        int arr[] = {2,6,5,9,11};
+        int arr[] = {2,7,11,15};
         int n=arr.length;
-        int target = 14;
+        int target = 9;
         twoSum(arr, n, target);
     } 
 }
