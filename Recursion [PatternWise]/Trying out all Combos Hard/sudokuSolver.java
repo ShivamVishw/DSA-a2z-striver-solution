@@ -1,9 +1,5 @@
 public class sudokuSolver {
     
-    private static void solve(char[][] board){
-        solveSudoku(board);
-    }
-
     private static boolean solveSudoku(char[][] board){
         for(int i=0; i<board.length; i++){
             for(int j=0; j<board[0].length; j++){
@@ -55,7 +51,7 @@ public class sudokuSolver {
             {'.', '9', '1', '.', '3', '6', '.', '7', '5'},
             {'7', '.', '6', '1', '8', '5', '4', '.', '9'}
             };
-        solve(board);
+        solveSudoku(board);
         
         for(int i=0; i<board.length; i++){
             for(int j=0; j<board[0].length; j++){
@@ -64,5 +60,6 @@ public class sudokuSolver {
             System.out.println();
         }
         
+    
     }
 }
