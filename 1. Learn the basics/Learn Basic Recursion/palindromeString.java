@@ -1,24 +1,33 @@
 import java.util.Scanner;
-public class palindromeString {
+
+public class practiceQ {
+    
+    static void strpalindrome(String name, int i, String temp){
+        //base case
+        if(i<0){
+            if(name.equals(temp)){
+                System.out.println("palindrome");
+            }else{
+                System.out.println("Not palindrome");
+            }
+            return;
+        }
+
+        //work
+        
+        temp = temp + name.charAt(i);
+
+        //recursive call
+        strpalindrome(name, i-1, temp);      
+    }
+
     public static void main(String[] args) {
 
-        //check palindrome 
-        Scanner sc = new Scanner(System.in);
-        int number = sc.nextInt();
-        int reverse=0;
-        int temp= number;
-        while(number!=0){
-            int reminder = number%10;
-            reverse= reverse*10 +reminder;
-            number = number/10;
-        }
-        System.out.println(reverse);
-        //now check if reverse equal to original number or not 
-        if(temp== reverse){
-            System.out.println("The given number is Palindrome");
-        }else{
-            System.out.println("The given number is not Palindrome");
-        }
+        String name = "nitin";
+        String temp = "";
+        int size = name.length()-1;
+        // String result =strpalindrome(name, size,temp);
         
+        strpalindrome(name, size,temp);
     }
 }
